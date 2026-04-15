@@ -7,11 +7,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
 export const homePage = (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(__dirname, '../../public/index.html'));
 };
 export const mainPage = (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/home.html'));
+    res.sendFile(path.join(__dirname, '../../public/home.html'));
 };
 export const chatPage = (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/chat.html'));
+    res.sendFile(path.join(__dirname, '../../public/chat.html'));
 };
