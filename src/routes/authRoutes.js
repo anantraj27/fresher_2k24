@@ -1,6 +1,6 @@
 import express from "express"
 
-import { signupController } from "./authController.js"
+import { signupController } from "../controller/authController.js"
 import passport from "passport"
 const router = express.Router()
 router.post("/signup", signupController)
